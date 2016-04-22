@@ -11,13 +11,13 @@
 install form github
 
 ```sh
-$ cordova plugin add https://github.com/TongChia/cordova-plugin-pingpp.git
+$ cordova plugin add https://github.com/qianhaikeji/cordova-plugin-pingpp.git
 ```
 
 #### 包含百度钱包/银联支付/ApplePay
 
 ```sh
-$ cordova plugin add https://github.com/TongChia/cordova-plugin-pingpp.git#all
+$ cordova plugin add https://github.com/qianhaikeji/cordova-plugin-pingpp.git#all
 ```
 
 javascript
