@@ -6,7 +6,7 @@
     "id": "me.tongchia.cordova.pingpp",
     "platforms": [
       "android",
-      "ios"
+    //  "ios"
     ]
   },
   "repository": {
