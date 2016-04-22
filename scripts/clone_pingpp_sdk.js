@@ -10,7 +10,7 @@ module.exports = function(ctx) {
     , style = r('ansi-styles')
     , platform = ctx.opts.plugin.platform
     , sdk_path = path.join(ctx.opts.plugin.dir, 'sdk', platform)
-    , sdk_url = 'https://github.com/PingPlusPlus/pingpp-'+platform+'.git';
+    , sdk_url = 'https://github.com/PingPlusPlus/pingpp-'+platform+'.git --depth=1';
 
   if (shell.test('-e', sdk_path)) { d.resolve(); }
   else {
