@@ -42,7 +42,7 @@ public class PingppPlugin extends CordovaPlugin {
                 if(result.equals("success")){
                     callbackContext.success(result);
                 }else {
-                    callbackContext.error(result, errorMsg, extraMsg);
+                    callbackContext.error(result+"_"+errorMsg+"_"+extraMsg);
                 }
             } else if (resultCode == android.app.Activity.RESULT_CANCELED) {
                 callbackContext.error("cancel");
